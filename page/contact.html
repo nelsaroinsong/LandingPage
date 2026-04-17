@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak | RuangVista</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style/styles.css" />
+</head>
+<body>
+  <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigasi Utama">
+      <a class="brand" href="index.html#home">
+        <span class="brand-mark" aria-hidden="true">▦</span>
+        <span class="brand-text">RuangVista</span>
+      </a>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-menu">
+        <span class="sr-only">Buka menu</span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul id="main-menu" class="menu">
+        <li><a href="index.html#home">Beranda</a></li>
+        <li><a href="index.html#about">Tentang</a></li>
+        <li><a href="index.html#features">Fitur</a></li>
+        <li><a href="index.html#testimonial">Testimoni</a></li>
+        <li><a class="active-link" href="contact.html">Kontak</a></li>
+      </ul>
+
+      <a class="btn btn-nav" href="contact.html">Konsultasi</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-pad contact-hero">
+      <div class="container reveal">
+        <p class="eyebrow">Kontak RuangVista</p>
+        <h1>Diskusikan kebutuhan properti bisnis Anda.</h1>
+        <p class="contact-lead">
+          Isi form di bawah dan tim konsultan kami akan menghubungi Anda dalam 1x24 jam kerja.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-pad contact-section">
+      <div class="container contact-grid">
+        <article class="contact-card reveal">
+          <h2>Hubungi Kami</h2>
+          <p>
+            Kami siap membantu kebutuhan lokasi untuk retail, gudang logistik, sampai ruang kantor.
+            Ceritakan kebutuhan Anda dan kami siapkan opsi terbaik.
+          </p>
+          <ul class="contact-list">
+            <li><strong>Telepon</strong><span>+62 812 3456 7890</span></li>
+            <li><strong>Email</strong><span>halo@ruangvista.id</span></li>
+            <li><strong>Alamat</strong><span>Jakarta, Indonesia</span></li>
+            <li><strong>Jam Operasional</strong><span>Senin - Jumat, 09.00 - 18.00</span></li>
+          </ul>
+        </article>
+
+        <article class="contact-form-wrap reveal delay-1">
+          <h2>Form Konsultasi</h2>
+          <form class="contact-form" action="#" method="post">
+            <label for="name">Nama Lengkap</label>
+            <input id="name" name="name" type="text" placeholder="Contoh: Budi Santoso" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="nama@email.com" required />
+
+            <label for="phone">Nomor WhatsApp</label>
+            <input id="phone" name="phone" type="tel" placeholder="08xxxxxxxxxx" required />
+
+            <label for="needs">Kebutuhan Utama</label>
+            <select id="needs" name="needs" required>
+              <option value="" selected disabled>Pilih kebutuhan</option>
+              <option value="retail">Retail Space</option>
+              <option value="warehouse">Gudang dan Logistik</option>
+              <option value="office">Kantor Korporat</option>
+              <option value="other">Lainnya</option>
+            </select>
+
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tuliskan area target, budget, dan kebutuhan khusus..."></textarea>
+
+            <button class="btn btn-primary" type="submit">Kirim Permintaan</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html#home">
+          <span class="brand-mark" aria-hidden="true">▦</span>
+          <span class="brand-text">RuangVista</span>
+        </a>
+        <p>Partner strategis untuk pencarian properti komersial yang lebih cepat, aman, dan terarah.</p>
+      </div>
+
+      <div>
+        <h3>Perusahaan</h3>
+        <ul>
+          <li><a href="index.html#about">Tentang Kami</a></li>
+          <li><a href="index.html#features">Layanan</a></li>
+          <li><a href="index.html#testimonial">Cerita Klien</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Layanan</h3>
+        <ul>
+          <li><a href="index.html#features">Retail Space</a></li>
+          <li><a href="index.html#features">Gudang & Logistik</a></li>
+          <li><a href="index.html#features">Kantor Korporat</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Kontak</h3>
+        <ul>
+          <li>+62 812 3456 7890</li>
+          <li>halo@ruangvista.id</li>
+          <li>Jakarta, Indonesia</li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">© 2026 RuangVista. Seluruh hak cipta dilindungi.</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
